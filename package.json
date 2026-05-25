@@ -1,0 +1,22 @@
+{
+  "name": "seneca-hackathon-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for senecahackathon.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=Chromium",
+    "test:firefox": "playwright test --project=Firefox",
+    "test:mobile": "playwright test --project='Mobile Safari'",
+    "test:homepage": "playwright test tests/homepage.spec.js",
+    "test:navigation": "playwright test tests/navigation.spec.js",
+    "test:pages": "playwright test tests/pages.spec.js",
+    "test:footer": "playwright test tests/footer.spec.js",
+    "test:performance": "playwright test tests/performance.spec.js",
+    "report": "playwright show-report test-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
