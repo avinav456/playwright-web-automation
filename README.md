@@ -60,7 +60,7 @@ npx playwright install --with-deps
 
 ## 📊 Test Coverage
 
-### `homepage.spec.js` 
+### `homepage.spec.js` (250 tests)
 - Page load & HTTP 200
 - Title & logo
 - Hero section: tagline, event dates, registration status
