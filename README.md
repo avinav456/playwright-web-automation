@@ -60,7 +60,7 @@ npx playwright install --with-deps
 
 ## 📊 Test Coverage
 
-### `homepage.spec.js` (26 tests)
+### `homepage.spec.js` 
 - Page load & HTTP 200
 - Title & logo
 - Hero section: tagline, event dates, registration status
@@ -70,27 +70,27 @@ npx playwright install --with-deps
 - Sponsor logos (Alectra, Esri, SSF, Octo, TTW, ComUnity, GDG)
 - Hall of Fame section + link
 
-### `navigation.spec.js` (15 tests)
+### `navigation.spec.js`
 - All 6 nav links visible (Home, About, Challenges, Our Team, News, FAQs)
 - Each link has correct `href`
 - Clicking each link routes to the right page
 - Logo links back to homepage
 - Browser back button works
 
-### `pages.spec.js` (13 tests)
+### `pages.spec.js` 
 - HTTP 200 for all sub-pages: `/about`, `/challenges`, `/our-team`, `/news`, `/faqs`, `/hall-of-fame`
 - No 404 error messages shown
 - Content presence per page
 - 404 graceful handling for invalid URLs
 
-### `footer.spec.js` (9 tests)
+### `footer.spec.js` 
 - Seneca Polytechnic postal address
 - `learnatocto.com` link
 - Instagram, YouTube, LinkedIn social links
 - Contact email: `hackathon@senecapolytechnic.ca`
 - Copyright 2026 notice
 
-### `performance.spec.js` (17 tests)
+### `performance.spec.js` 
 - All pages load in < 5 seconds
 - Zero critical console errors on all pages
 - Homepage has ≥1 `<h1>`
